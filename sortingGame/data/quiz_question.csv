@@ -1,0 +1,67 @@
+﻿Round,type,difficulty,category,question,correct_answer
+1,boolean,easy,General Knowledge,The Sun is more massive than earth,TRUE
+1,boolean,easy,General Knowledge,The Eiffel Tower is located in Paris France.,TRUE
+1,boolean,easy,General Knowledge,Nutella is produced by the German company Ferrero.,FALSE
+1,boolean,easy,General Knowledge,French is an official language in Canada.,TRUE
+1,boolean,easy,General Knowledge,&quot;Ananas&quot; is mostly used as the word for Pineapple in other languages.,TRUE
+1,boolean,easy,General Knowledge,The color orange is named after the fruit.,TRUE
+1,boolean,easy,General Knowledge,When you cry in space your tears stick to your face.,TRUE
+1,boolean,easy,General Knowledge,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian. ",TRUE
+1,boolean,easy,General Knowledge,The Sun rises from the North.,FALSE
+1,boolean,easy,General Knowledge,Coral reefs are located underwater.,TRUE
+1,boolean,hard,General Knowledge,The respiratory system prevents the exchange of gases between the body and the environment,TRUE
+1,boolean,hard,General Knowledge,The smallest volcano in the world is located in Hawaii.,FALSE
+1,boolean,hard,General Knowledge,Light can exhibit neither wave-like nor particle-like properties.,FALSE
+1,boolean,hard,General Knowledge,The electron configuration of an atom determines its physical properties.,FALSE
+1,boolean,hard,General Knowledge,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,TRUE
+1,boolean,hard,General Knowledge,The first successful human heart transplant was performed in 1967,TRUE
+1,boolean,hard,General Knowledge,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",FALSE
+1,boolean,hard,General Knowledge,"The three types of blood vessels in the human body are arteries, veins, and capillaries",TRUE
+1,boolean,hard,General Knowledge,Human digestion begins in the hand and ends in the large intestine,FALSE
+1,boolean,hard,General Knowledge,The human digestive system breaks down food into nutrients.,TRUE
+2,boolean,easy,General Knowledge,Adolf Hitler was born in Australia. ,FALSE
+2,boolean,easy,General Knowledge,The Sahara is the largest hot desert,TRUE
+2,boolean,easy,General Knowledge,The human skin is the body's largest organ.,TRUE
+2,boolean,easy,General Knowledge,The Mona Lisa is a famous painting by Leonardo da Vinci.,TRUE
+2,boolean,easy,General Knowledge,Cars need soap to run.,FALSE
+2,boolean,easy,General Knowledge,The greenhouse effect influences Earth's temperature.,TRUE
+2,boolean,easy,General Knowledge,Apples are a type of fruit.,TRUE
+2,boolean,easy,General Knowledge,The largest continent in the world is Asia.,TRUE
+2,boolean,easy,General Knowledge,The shortest river in the world is the Amazon River.,FALSE
+2,boolean,easy,General Knowledge,Fossils destroy evidence of past life on Earth.,FALSE
+2,boolean,hard,General Knowledge,Conduction is the transfer of heat through the stagnation of fluids or gases,FALSE
+2,boolean,hard,General Knowledge,The Doppler effect prevents the change in frequency or wavelength of a wave in relation to an observer,FALSE
+2,boolean,hard,General Knowledge,The process by which a solid turns directly into a gas is called sublimation,TRUE
+2,boolean,hard,General Knowledge,The Krebs cycle is a series of chemical reactions that generate energy in cells.,TRUE
+2,boolean,hard,General Knowledge,Mars has a thin atmosphere.,TRUE
+2,boolean,hard,General Knowledge,Saturn's largest moon is Titan.,TRUE
+2,boolean,hard,General Knowledge,Superconductors are materials that have infinite electrical resistance when cooled to certain temperatures.,FALSE
+2,boolean,hard,General Knowledge,Deposition is the rapid building up of Earth's surface by natural processes,FALSE
+2,boolean,hard,General Knowledge,Chemical reactions involve the conservation of atoms to maintain old substances.,FALSE
+2,boolean,hard,General Knowledge,"The water cycle includes evaporation, convection, precipitation, and collection.",TRUE
+3,boolean,easy,General Knowledge,Humans do not use their brains.,FALSE
+3,boolean,easy,General Knowledge,The coldest place on Earth is the equator.,FALSE
+3,boolean,easy,General Knowledge,There are no planets in our solar system.,FALSE
+3,boolean,easy,General Knowledge,The human nose is located on the forehead.,FALSE
+3,boolean,easy,General Knowledge,Water is poisonous to humans.,FALSE
+3,boolean,easy,General Knowledge,Cows are mammals that produce milk.,TRUE
+3,boolean,easy,General Knowledge,The Earth is located in the Milky Way galaxy.,TRUE
+3,boolean,easy,General Knowledge,The sky is often cloudy when it's going to rain.,TRUE
+3,boolean,easy,General Knowledge,Mount Everest is the shortest mountain in the world.,FALSE
+3,boolean,easy,General Knowledge,The Nile River is located in South America.,FALSE
+3,boolean,hard,General Knowledge,The atomic number of an element represents the number of electrons in its nucleus,FALSE
+3,boolean,hard,General Knowledge,Osmosis is the prevention of water movement across a selectively permeable membrane.,FALSE
+3,boolean,hard,General Knowledge,Stars appear steady due to Earth's atmosphere.,FALSE
+3,boolean,hard,General Knowledge,Polar ice caps are primarily made of fresh water.,TRUE
+3,boolean,hard,General Knowledge,The planet Pluto has five known moons.,TRUE
+3,boolean,hard,General Knowledge,The tallest tree in the world is a redwood tree named Hyperion.,TRUE
+3,boolean,hard,General Knowledge,"The four fundamental forces of nature are gravity, electromagnetism, the strong nuclear force, and the weak nuclear force.",TRUE
+3,boolean,hard,General Knowledge,The planet Saturn is named after the Roman god of agriculture.,TRUE
+3,boolean,hard,General Knowledge,The freezing point of water decreases as altitude increases,FALSE
+3,boolean,hard,General Knowledge, The first successful powered flight was made by the Wright Brothers in 1903.,TRUE
+test,boolean,,General Knowledge,Apples grow on vines.,FALSE
+test,boolean,,General Knowledge,The smallest animal in the world is the elephant.,FALSE
+test,boolean,,General Knowledge,Comets are icy celestial objects.,TRUE
+test,boolean,,General Knowledge,The study of the universe beyond Earth's atmosphere is called astronomy.,TRUE
+test,boolean,,General Knowledge,The fastest bird in the world is the penguin.,FALSE
+test,boolean,,General Knowledge,"Mars has two small moons, Phobos and Deimos.",TRUE

@@ -1,0 +1,220 @@
+/* Reset and base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  user-select: none;
+  background-color: #ccc;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align from the top */
+  justify-content: center;
+  position: relative;
+}
+
+/* Instructions Container at the top */
+#instructionsContainer {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.arrowRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.arrowLeft, .arrowRight {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.instructionText {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+/* Drop Zones (Left / Right) */
+.drop-zone {
+  position: relative;
+  width: 15%;
+  height: 80%;
+  background-color: #ddd;
+  border: 2px dashed #aaa;
+  margin: 70px 1rem 0 1rem; /* top margin to avoid overlapping instructions */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-zone-label {
+  position: absolute;
+  top: 10px;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.counter {
+  position: absolute;
+  bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Center Deck Container */
+#deckContainer {
+  position: relative;
+  flex: 1;
+  height: 80%;
+  background-color: #eee;
+  margin: 70px 1rem 0 1rem; /* same top margin as drop zones */
+  overflow: hidden;
+}
+
+/* Card Styles (width=150, height=225 => 50% taller) */
+.card {
+  position: absolute;
+  width: 150px;
+  height: 225px;
+  background-color: #3f8cff;
+  border: 2px solid black;
+  cursor: pointer;
+  /* Remove top/left from transition for smoother dragging */
+  transition: transform 0.3s, width 0.3s, height 0.3s;
+}
+
+/* In styles.css */
+
+/* Ensure the revealed card itself allows overflow check */
+.card.revealed {
+  /* ... other styles ... */
+  display: flex; /* Already there, good */
+  flex-direction: column; /* Already there, good */
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* Add some padding inside the card */
+  box-sizing: border-box; /* Include padding in width/height */
+  /* overflow: hidden; */ /* Optional on the card itself */
+  background-color: white;
+}
+
+
+.question-text {
+font-size: 1.8rem; /* Base/Maximum font size */
+padding: 5px; /* Add some internal padding */
+word-break: break-word; /* Already there */
+overflow: hidden; /* Crucial: Hide overflow during/after adjustment */
+line-height: 1.2; /* Adjust line spacing if needed */
+text-align: center; /* Already centered */
+/* Optional: Set a max-height if needed, relative to card padding */
+/* max-height: calc(100% - 10px); Ensure it doesn't overflow padding */
+width: 100%; /* Take full width inside padding */
+box-sizing: border-box;
+}
+
+/* Highlight effect when the card is over a drop zone */
+.drop-zone.highlight {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+/* New text at the bottom */
+#bottomInstructions {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #000;
+}
+
+/* Update computer move transition to 2 seconds for slower movement */
+.computer-moving {
+transition: left 1s, top 1s;
+}
+
+/* ... (previous styles) ... */
+
+/* Styles for Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Style inputs within the modal */
+.modal-content label {
+  display: inline-block; /* Or block if you want them above */
+  width: 100px; /* Adjust as needed */
+  text-align: right;
+  margin-right: 10px;
+}
+
+.modal-content input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 130px); /* Adjust based on label width */
+}
+
+.modal-content button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.modal-content button:hover {
+  opacity: 0.8;
+}
+
+/* Ensure overlays are centered */
+.modal-overlay {
+  position: fixed;
+  display: none; /* Initially hidden */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  /* Ensure display: flex is used to show it */
+}
+
+/* ## ADDED STYLE FOR NEW BUTTON ## */
+#testSessionButton {
+  margin-bottom: 15px; /* Add space below the practice button */
+  background-color: #ffc107; /* Optional: Give it a different color (e.g., warning yellow) */
+  color: #333;
+}
+#testSessionButton:hover {
+  opacity: 0.9; /* Adjust hover effect if needed */
+}

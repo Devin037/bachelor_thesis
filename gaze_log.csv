@@ -1,0 +1,319 @@
+timestamp,participant,cardId,question,difficulty,correct_answer,correct_side,participants_side_choice,Robot,gazeDecision,move_duration
+2025-04-02T10:59:40.884922+00:00,678,100,Nutella is produced by the German company Ferrero.,easy,False,right,right,Peter condition,right,7.616
+2025-04-02T10:59:40.884922+00:00,678,100,Nutella is produced by the German company Ferrero.,easy,False,right,right,Peter condition,right,7.616
+2025-04-02T11:00:01.877082+00:00,678,99,The human digestive system breaks down food into nutrients.,hard,True,left,right,Peter condition,left,18.069
+2025-04-02T11:00:01.877082+00:00,678,99,The human digestive system breaks down food into nutrients.,hard,True,left,right,Peter condition,left,18.069
+2025-04-02T11:00:09.044563+00:00,678,98,French is an official language in Canada.,easy,True,left,left,Peter condition,left,3.117
+2025-04-02T11:00:09.044563+00:00,678,98,French is an official language in Canada.,easy,True,left,left,Peter condition,left,3.117
+2025-04-02T11:00:20.344668+00:00,678,97,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Peter condition,left,7.659
+2025-04-02T11:00:20.344668+00:00,678,97,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Peter condition,left,7.659
+2025-04-02T11:00:29.831468+00:00,678,96,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Peter condition,left,6.905
+2025-04-02T11:00:29.831468+00:00,678,96,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Peter condition,left,6.905
+2025-04-02T11:00:43.351780+00:00,678,95,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,right,Peter condition,left,10.801
+2025-04-02T11:00:43.351780+00:00,678,95,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,right,Peter condition,left,10.801
+2025-04-02T11:00:51.137186+00:00,678,94,Coral reefs are located underwater.,easy,True,left,left,Peter condition,left,4.461
+2025-04-02T11:00:51.137186+00:00,678,94,Coral reefs are located underwater.,easy,True,left,left,Peter condition,left,4.461
+2025-04-02T11:01:03.419331+00:00,678,93,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Peter condition,left,9.364
+2025-04-02T11:01:03.419331+00:00,678,93,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Peter condition,left,9.364
+2025-04-02T11:01:31.586262+00:00,678,92,Human digestion begins in the hand and ends in the large intestine,hard,False,right,right,Peter condition,right,3.423
+2025-04-02T11:01:31.586262+00:00,678,92,Human digestion begins in the hand and ends in the large intestine,hard,False,right,right,Peter condition,right,3.423
+2025-04-02T11:01:35.641371+00:00,678,91,The color orange is named after the fruit.,easy,True,left,left,Peter condition,left,2.052
+2025-04-02T11:01:35.641371+00:00,678,91,The color orange is named after the fruit.,easy,True,left,left,Peter condition,left,2.052
+2025-04-02T11:01:45.097246+00:00,678,90,The Sun rises from the North.,easy,False,right,left,Peter condition,left,6.699
+2025-04-02T11:01:45.097246+00:00,678,90,The Sun rises from the North.,easy,False,right,left,Peter condition,left,6.699
+2025-04-02T11:01:52.369070+00:00,678,89,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,right,Peter condition,right,4.861
+2025-04-02T11:01:52.369070+00:00,678,89,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,right,Peter condition,right,4.861
+2025-04-02T11:01:58.509832+00:00,678,88,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,right,Peter condition,right,3.792
+2025-04-02T11:01:58.509832+00:00,678,88,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,right,Peter condition,right,3.792
+2025-04-02T11:02:14.831768+00:00,678,87,The Sun is more massive than earth,easy,True,left,left,Peter condition,right,14.265
+2025-04-02T11:02:14.831768+00:00,678,87,The Sun is more massive than earth,easy,True,left,left,Peter condition,right,14.265
+2025-04-02T11:02:27.898654+00:00,678,86,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Peter condition,left,11.063
+2025-04-02T11:02:27.898654+00:00,678,86,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Peter condition,left,11.063
+2025-04-02T11:02:35.886828+00:00,678,85,When you cry in space your tears stick to your face.,easy,True,left,left,Peter condition,left,5.064
+2025-04-02T11:02:35.886828+00:00,678,85,When you cry in space your tears stick to your face.,easy,True,left,left,Peter condition,left,5.064
+2025-04-02T11:02:42.952526+00:00,678,84,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Peter condition,left,5.063
+2025-04-02T11:02:42.952526+00:00,678,84,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Peter condition,left,5.063
+2025-04-02T11:02:49.924678+00:00,678,83,The Eiffel Tower is located in Paris France.,easy,True,left,left,Peter condition,left,4.836
+2025-04-02T11:02:49.924678+00:00,678,83,The Eiffel Tower is located in Paris France.,easy,True,left,left,Peter condition,left,4.836
+2025-04-02T11:02:54.015259+00:00,678,82,The first successful human heart transplant was performed in 1967,hard,True,left,left,Peter condition,left,2.086
+2025-04-02T11:02:54.015259+00:00,678,82,The first successful human heart transplant was performed in 1967,hard,True,left,left,Peter condition,left,2.086
+2025-04-02T11:02:58.501625+00:00,678,81,The smallest volcano in the world is located in Hawaii.,hard,False,right,right,Peter condition,right,2.484
+2025-04-02T11:02:58.501625+00:00,678,81,The smallest volcano in the world is located in Hawaii.,hard,False,right,right,Peter condition,right,2.484
+2025-04-02T11:03:12.027771+00:00,678,80,Adolf Hitler was born in Australia.,easy,False,right,right,Jimmy condition,left,6.898
+2025-04-02T11:03:12.027771+00:00,678,80,Adolf Hitler was born in Australia.,easy,False,right,right,Jimmy condition,left,6.898
+2025-04-02T11:03:20.021347+00:00,678,79,The greenhouse effect influences Earth's temperature.,easy,True,left,left,Jimmy condition,left,5.474
+2025-04-02T11:03:20.021347+00:00,678,79,The greenhouse effect influences Earth's temperature.,easy,True,left,left,Jimmy condition,left,5.474
+2025-04-02T11:03:34.868364+00:00,678,78,Fossils destroy evidence of past life on Earth.,easy,False,right,right,Jimmy condition,left,12.794
+2025-04-02T11:03:34.868364+00:00,678,78,Fossils destroy evidence of past life on Earth.,easy,False,right,right,Jimmy condition,left,12.794
+2025-04-02T11:03:40.095815+00:00,678,77,The Sahara is the largest hot desert,easy,True,left,left,Jimmy condition,right,3.220
+2025-04-02T11:03:40.095815+00:00,678,77,The Sahara is the largest hot desert,easy,True,left,left,Jimmy condition,right,3.220
+2025-04-02T11:03:47.772908+00:00,678,76,The Doppler effect prevents the change in frequency or wavelength of a wave in relation to an observer,hard,False,right,right,Jimmy condition,left,5.270
+2025-04-02T11:03:47.772908+00:00,678,76,The Doppler effect prevents the change in frequency or wavelength of a wave in relation to an observer,hard,False,right,right,Jimmy condition,left,5.270
+2025-04-03T07:16:42.169334+00:00,123,v50,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,right,Peter condition,right,4.765
+2025-04-03T07:16:42.169334+00:00,123,v50,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,right,Peter condition,right,4.765
+2025-04-03T07:16:48.140209+00:00,123,v49,French is an official language in Canada.,easy,True,left,left,Peter condition,left,6.733
+2025-04-03T07:16:48.140209+00:00,123,v49,French is an official language in Canada.,easy,True,left,left,Peter condition,left,6.733
+2025-04-03T07:16:54.238410+00:00,123,v48,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,right,Peter condition,left,5.735
+2025-04-03T07:16:54.238410+00:00,123,v48,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,right,Peter condition,left,5.735
+2025-04-03T07:31:05.451266+00:00,123,v47,The first successful human heart transplant was performed in 1967,hard,True,left,right,Ryan condition,left,33.136
+2025-04-03T07:31:05.451266+00:00,123,v47,The first successful human heart transplant was performed in 1967,hard,True,left,right,Ryan condition,left,33.136
+2025-04-03T07:31:23.056311+00:00,q24e,v50,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Ryan condition,right,
+2025-04-03T07:31:23.056311+00:00,q24e,v50,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Ryan condition,right,
+2025-04-03T07:31:30.371239+00:00,q24e,v49,Coral reefs are located underwater.,easy,True,left,right,Ryan condition,left,
+2025-04-03T07:31:30.371239+00:00,q24e,v49,Coral reefs are located underwater.,easy,True,left,right,Ryan condition,left,
+2025-04-03T07:31:41.615371+00:00,q24e,v48,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Ryan condition,right,
+2025-04-03T07:31:41.615371+00:00,q24e,v48,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Ryan condition,right,
+2025-04-03T08:00:18.372286+00:00,321,v50,When you cry in space your tears stick to your face.,easy,True,left,left,Carl condition,none,0.651
+2025-04-03T08:00:18.372286+00:00,321,v50,When you cry in space your tears stick to your face.,easy,True,left,left,Carl condition,none,2.651
+2025-04-03T08:00:20.094183+00:00,321,v49,The Eiffel Tower is located in Paris France.,easy,True,left,left,Carl condition,none,-0.946
+2025-04-03T08:00:20.094183+00:00,321,v49,The Eiffel Tower is located in Paris France.,easy,True,left,left,Carl condition,none,1.054
+2025-04-03T08:00:21.755689+00:00,321,v48,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,-0.956
+2025-04-03T08:00:21.755689+00:00,321,v48,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,1.044
+2025-04-03T08:00:23.255980+00:00,321,v47,The first successful human heart transplant was performed in 1967,hard,True,left,left,Carl condition,none,-1.151
+2025-04-03T08:00:23.255980+00:00,321,v47,The first successful human heart transplant was performed in 1967,hard,True,left,left,Carl condition,none,0.849
+2025-04-03T08:00:24.805861+00:00,321,v46,Human digestion begins in the hand and ends in the large intestine,hard,False,right,left,Carl condition,none,-0.990
+2025-04-03T08:00:24.805861+00:00,321,v46,Human digestion begins in the hand and ends in the large intestine,hard,False,right,left,Carl condition,none,1.010
+2025-04-03T08:00:26.493175+00:00,321,v45,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Carl condition,none,-0.913
+2025-04-03T08:00:26.493175+00:00,321,v45,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Carl condition,none,1.087
+2025-04-03T08:00:28.006141+00:00,321,v44,The human digestive system breaks down food into nutrients.,hard,True,left,left,Carl condition,none,-1.119
+2025-04-03T08:00:28.006141+00:00,321,v44,The human digestive system breaks down food into nutrients.,hard,True,left,left,Carl condition,none,0.881
+2025-04-03T08:00:29.525585+00:00,321,v43,Coral reefs are located underwater.,easy,True,left,left,Carl condition,none,-1.048
+2025-04-03T08:00:29.525585+00:00,321,v43,Coral reefs are located underwater.,easy,True,left,left,Carl condition,none,0.952
+2025-04-03T08:00:31.095025+00:00,321,v42,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Carl condition,none,-1.034
+2025-04-03T08:00:31.095025+00:00,321,v42,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Carl condition,none,0.966
+2025-04-03T08:00:32.605104+00:00,321,v41,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Carl condition,none,-1.072
+2025-04-03T08:00:32.605104+00:00,321,v41,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Carl condition,none,0.928
+2025-04-03T08:00:33.922885+00:00,321,v40,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Carl condition,none,-1.286
+2025-04-03T08:00:33.922885+00:00,321,v40,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Carl condition,none,0.714
+2025-04-03T08:00:35.225469+00:00,321,v39,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Carl condition,none,-1.215
+2025-04-03T08:00:35.225469+00:00,321,v39,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Carl condition,none,0.785
+2025-04-03T08:00:36.906239+00:00,321,v38,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Carl condition,none,-0.869
+2025-04-03T08:00:36.906239+00:00,321,v38,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Carl condition,none,1.131
+2025-04-03T08:00:38.456088+00:00,321,v37,The Sun is more massive than earth,easy,True,left,left,Carl condition,none,-1.153
+2025-04-03T08:00:38.456088+00:00,321,v37,The Sun is more massive than earth,easy,True,left,left,Carl condition,none,0.847
+2025-04-03T08:00:39.889443+00:00,321,v36,The color orange is named after the fruit.,easy,True,left,left,Carl condition,none,-1.135
+2025-04-03T08:00:39.889443+00:00,321,v36,The color orange is named after the fruit.,easy,True,left,left,Carl condition,none,0.865
+2025-04-03T08:00:41.377628+00:00,321,v35,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Carl condition,none,-1.097
+2025-04-03T08:00:41.377628+00:00,321,v35,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Carl condition,none,0.903
+2025-04-03T08:00:43.109321+00:00,321,v34,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Carl condition,none,-0.883
+2025-04-03T08:00:43.109321+00:00,321,v34,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Carl condition,none,1.117
+2025-04-03T08:00:44.923541+00:00,321,v33,The Sun rises from the North.,easy,False,right,left,Carl condition,none,-0.831
+2025-04-03T08:00:44.923541+00:00,321,v33,The Sun rises from the North.,easy,False,right,left,Carl condition,none,1.169
+2025-04-03T08:00:46.573884+00:00,321,v32,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Carl condition,none,-0.940
+2025-04-03T08:00:46.573884+00:00,321,v32,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Carl condition,none,1.060
+2025-04-03T08:00:48.106105+00:00,321,v31,French is an official language in Canada.,easy,True,left,left,Carl condition,none,-1.050
+2025-04-03T08:00:48.106105+00:00,321,v31,French is an official language in Canada.,easy,True,left,left,Carl condition,none,0.950
+2025-04-03T08:01:04.040164+00:00,321,v30,The Doppler effect prevents the change in frequency or wavelength of a wave in relation to an observer,hard,False,right,left,Ryan condition,right,1.414
+2025-04-03T08:01:04.040164+00:00,321,v30,The Doppler effect prevents the change in frequency or wavelength of a wave in relation to an observer,hard,False,right,left,Ryan condition,right,1.414
+2025-04-03T08:01:05.791873+00:00,321,v29,Conduction is the transfer of heat through the stagnation of fluids or gases,hard,False,right,left,Ryan condition,left,0.867
+2025-04-03T08:01:05.791873+00:00,321,v29,Conduction is the transfer of heat through the stagnation of fluids or gases,hard,False,right,left,Ryan condition,left,0.867
+2025-04-03T08:01:07.689615+00:00,321,v1,The largest continent in the world is Asia.,easy,True,left,left,Ryan condition,left,1.179
+2025-04-03T08:01:07.689615+00:00,321,v1,The largest continent in the world is Asia.,easy,True,left,left,Ryan condition,left,1.179
+2025-04-03T08:01:09.241674+00:00,321,v28,The shortest river in the world is the Amazon River.,easy,False,right,left,Ryan condition,right,0.899
+2025-04-03T08:01:09.241674+00:00,321,v28,The shortest river in the world is the Amazon River.,easy,False,right,left,Ryan condition,right,0.899
+2025-04-03T08:01:11.056585+00:00,321,v27,"The water cycle includes evaporation, convection, precipitation, and collection.",hard,True,left,left,Ryan condition,left,0.915
+2025-04-03T08:01:11.056585+00:00,321,v27,"The water cycle includes evaporation, convection, precipitation, and collection.",hard,True,left,left,Ryan condition,left,0.915
+2025-04-03T08:01:13.590386+00:00,321,v2,Saturn's largest moon is Titan.,hard,True,left,left,Ryan condition,left,1.549
+2025-04-03T08:01:13.590386+00:00,321,v2,Saturn's largest moon is Titan.,hard,True,left,left,Ryan condition,left,1.549
+2025-04-03T08:01:15.176512+00:00,321,v26,The Krebs cycle is a series of chemical reactions that generate energy in cells.,hard,True,left,left,Ryan condition,left,0.919
+2025-04-03T08:01:15.176512+00:00,321,v26,The Krebs cycle is a series of chemical reactions that generate energy in cells.,hard,True,left,left,Ryan condition,left,0.919
+2025-04-03T08:01:16.822305+00:00,321,v25,The human skin is the body's largest organ.,easy,True,left,left,Ryan condition,left,1.017
+2025-04-03T08:01:16.822305+00:00,321,v25,The human skin is the body's largest organ.,easy,True,left,left,Ryan condition,left,1.017
+2025-04-03T08:01:18.325150+00:00,321,v24,Deposition is the rapid building up of Earth's surface by natural processes,hard,False,right,left,Ryan condition,left,0.916
+2025-04-03T08:01:18.325150+00:00,321,v24,Deposition is the rapid building up of Earth's surface by natural processes,hard,False,right,left,Ryan condition,left,0.916
+2025-04-03T08:01:20.022359+00:00,321,v23,Adolf Hitler was born in Australia.,easy,False,right,right,Ryan condition,right,1.031
+2025-04-03T08:01:20.022359+00:00,321,v23,Adolf Hitler was born in Australia.,easy,False,right,right,Ryan condition,right,1.031
+2025-04-03T08:01:21.705409+00:00,321,v22,The greenhouse effect influences Earth's temperature.,easy,True,left,right,Ryan condition,left,0.980
+2025-04-03T08:01:21.705409+00:00,321,v22,The greenhouse effect influences Earth's temperature.,easy,True,left,right,Ryan condition,left,0.980
+2025-04-03T08:01:23.273246+00:00,321,v21,Superconductors are materials that have infinite electrical resistance when cooled to certain temperatures.,hard,False,right,right,Ryan condition,right,0.949
+2025-04-03T08:01:23.273246+00:00,321,v21,Superconductors are materials that have infinite electrical resistance when cooled to certain temperatures.,hard,False,right,right,Ryan condition,right,0.949
+2025-04-03T08:01:24.671726+00:00,321,v20,Chemical reactions involve the conservation of atoms to maintain old substances.,hard,False,right,right,Ryan condition,right,0.800
+2025-04-03T08:01:24.671726+00:00,321,v20,Chemical reactions involve the conservation of atoms to maintain old substances.,hard,False,right,right,Ryan condition,right,0.800
+2025-04-03T08:01:26.055010+00:00,321,v19,The Sahara is the largest hot desert,easy,True,left,right,Ryan condition,left,0.816
+2025-04-03T08:01:26.055010+00:00,321,v19,The Sahara is the largest hot desert,easy,True,left,right,Ryan condition,left,0.816
+2025-04-03T08:01:27.406484+00:00,321,v18,Cars need soap to run.,easy,False,right,right,Ryan condition,right,0.799
+2025-04-03T08:01:27.406484+00:00,321,v18,Cars need soap to run.,easy,False,right,right,Ryan condition,right,0.799
+2025-04-03T08:01:29.192265+00:00,321,v17,The Mona Lisa is a famous painting by Leonardo da Vinci.,easy,True,left,right,Ryan condition,left,1.231
+2025-04-03T08:01:29.192265+00:00,321,v17,The Mona Lisa is a famous painting by Leonardo da Vinci.,easy,True,left,right,Ryan condition,left,1.231
+2025-04-03T08:01:30.672610+00:00,321,v16,Apples are a type of fruit.,easy,True,left,right,Ryan condition,left,0.894
+2025-04-03T08:01:30.672610+00:00,321,v16,Apples are a type of fruit.,easy,True,left,right,Ryan condition,left,0.894
+2025-04-03T08:01:32.139169+00:00,321,v15,Fossils destroy evidence of past life on Earth.,easy,False,right,right,Ryan condition,left,0.901
+2025-04-03T08:01:32.139169+00:00,321,v15,Fossils destroy evidence of past life on Earth.,easy,False,right,right,Ryan condition,left,0.901
+2025-04-03T08:01:33.624567+00:00,321,v14,The process by which a solid turns directly into a gas is called sublimation,hard,True,left,right,Ryan condition,left,0.898
+2025-04-03T08:01:33.624567+00:00,321,v14,The process by which a solid turns directly into a gas is called sublimation,hard,True,left,right,Ryan condition,left,0.898
+2025-04-03T08:01:35.355420+00:00,321,v13,Mars has a thin atmosphere.,hard,True,left,right,Ryan condition,left,1.214
+2025-04-03T08:01:35.355420+00:00,321,v13,Mars has a thin atmosphere.,hard,True,left,right,Ryan condition,left,1.214
+2025-04-03T08:01:43.921205+00:00,321,v12,Osmosis is the prevention of water movement across a selectively permeable membrane.,hard,False,right,left,Ivan condition,left,1.046
+2025-04-03T08:01:43.921205+00:00,321,v12,Osmosis is the prevention of water movement across a selectively permeable membrane.,hard,False,right,left,Ivan condition,left,1.046
+2025-04-03T08:01:45.809564+00:00,321,v11,The planet Pluto has five known moons.,hard,True,left,left,Ivan condition,left,1.368
+2025-04-03T08:01:45.809564+00:00,321,v11,The planet Pluto has five known moons.,hard,True,left,left,Ivan condition,left,1.368
+2025-04-03T08:01:47.456178+00:00,321,v10,The sky is often cloudy when it's going to rain.,easy,True,left,left,Ivan condition,right,1.033
+2025-04-03T08:01:47.456178+00:00,321,v10,The sky is often cloudy when it's going to rain.,easy,True,left,left,Ivan condition,right,1.033
+2025-04-03T08:01:48.873229+00:00,321,v9,The coldest place on Earth is the equator.,easy,False,right,left,Ivan condition,right,0.881
+2025-04-03T08:01:48.873229+00:00,321,v9,The coldest place on Earth is the equator.,easy,False,right,left,Ivan condition,right,0.881
+2025-04-03T08:01:50.475541+00:00,321,v8,The Nile River is located in South America.,easy,False,right,left,Ivan condition,left,0.902
+2025-04-03T08:01:50.475541+00:00,321,v8,The Nile River is located in South America.,easy,False,right,left,Ivan condition,left,0.902
+2025-04-03T08:02:15.007062+00:00,234,v50,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Carl condition,none,-1.168
+2025-04-03T08:02:15.007062+00:00,234,v50,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Carl condition,none,0.832
+2025-04-03T08:02:16.321779+00:00,234,v49,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,-1.185
+2025-04-03T08:02:16.321779+00:00,234,v49,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,0.815
+2025-04-03T08:02:17.590204+00:00,234,v48,Human digestion begins in the hand and ends in the large intestine,hard,False,right,left,Carl condition,none,-1.248
+2025-04-03T08:02:17.590204+00:00,234,v48,Human digestion begins in the hand and ends in the large intestine,hard,False,right,left,Carl condition,none,0.752
+2025-04-03T08:02:18.838524+00:00,234,v47,The color orange is named after the fruit.,easy,True,left,left,Carl condition,none,-1.285
+2025-04-03T08:02:18.838524+00:00,234,v47,The color orange is named after the fruit.,easy,True,left,left,Carl condition,none,0.715
+2025-04-03T08:02:20.236920+00:00,234,v46,The first successful human heart transplant was performed in 1967,hard,True,left,left,Carl condition,none,-1.203
+2025-04-03T08:02:20.236920+00:00,234,v46,The first successful human heart transplant was performed in 1967,hard,True,left,left,Carl condition,none,0.797
+2025-04-03T08:02:21.447014+00:00,234,v45,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Carl condition,none,-1.293
+2025-04-03T08:02:21.447014+00:00,234,v45,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Carl condition,none,0.707
+2025-04-03T08:02:22.887874+00:00,234,v44,The human digestive system breaks down food into nutrients.,hard,True,left,left,Carl condition,none,-1.070
+2025-04-03T08:02:22.887874+00:00,234,v44,The human digestive system breaks down food into nutrients.,hard,True,left,left,Carl condition,none,0.930
+2025-04-03T08:02:24.137536+00:00,234,v43,The Sun is more massive than earth,easy,True,left,left,Carl condition,none,-1.335
+2025-04-03T08:02:24.137536+00:00,234,v43,The Sun is more massive than earth,easy,True,left,left,Carl condition,none,0.665
+2025-04-03T08:02:25.323800+00:00,234,v42,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Carl condition,none,-1.367
+2025-04-03T08:02:25.323800+00:00,234,v42,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Carl condition,none,0.633
+2025-04-03T08:02:26.674105+00:00,234,v41,French is an official language in Canada.,easy,True,left,left,Carl condition,none,-1.283
+2025-04-03T08:02:26.674105+00:00,234,v41,French is an official language in Canada.,easy,True,left,left,Carl condition,none,0.717
+2025-04-03T08:02:28.021682+00:00,234,v40,The Eiffel Tower is located in Paris France.,easy,True,left,left,Carl condition,none,-1.212
+2025-04-03T08:02:28.021682+00:00,234,v40,The Eiffel Tower is located in Paris France.,easy,True,left,left,Carl condition,none,0.788
+2025-04-03T08:02:29.725291+00:00,234,v39,When you cry in space your tears stick to your face.,easy,True,left,left,Carl condition,none,-0.819
+2025-04-03T08:02:29.725291+00:00,234,v39,When you cry in space your tears stick to your face.,easy,True,left,left,Carl condition,none,1.181
+2025-04-03T08:02:31.089505+00:00,234,v38,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Carl condition,none,-1.251
+2025-04-03T08:02:31.089505+00:00,234,v38,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Carl condition,none,0.749
+2025-04-03T08:02:32.339231+00:00,234,v37,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Carl condition,none,-1.267
+2025-04-03T08:02:32.339231+00:00,234,v37,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Carl condition,none,0.733
+2025-04-03T08:02:33.539258+00:00,234,v36,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Carl condition,none,-1.332
+2025-04-03T08:02:33.539258+00:00,234,v36,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Carl condition,none,0.668
+2025-04-03T08:02:34.789590+00:00,234,v35,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Carl condition,none,-1.285
+2025-04-03T08:02:34.789590+00:00,234,v35,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Carl condition,none,0.715
+2025-04-03T08:02:36.390555+00:00,234,v34,Coral reefs are located underwater.,easy,True,left,left,Carl condition,none,-0.936
+2025-04-03T08:02:36.390555+00:00,234,v34,Coral reefs are located underwater.,easy,True,left,left,Carl condition,none,1.064
+2025-04-03T08:02:37.641999+00:00,234,v33,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Carl condition,none,-1.362
+2025-04-03T08:02:37.641999+00:00,234,v33,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Carl condition,none,0.638
+2025-04-03T08:02:38.790557+00:00,234,v32,The Sun rises from the North.,easy,False,right,left,Carl condition,none,-1.381
+2025-04-03T08:02:38.790557+00:00,234,v32,The Sun rises from the North.,easy,False,right,left,Carl condition,none,0.619
+2025-04-03T08:02:40.522610+00:00,234,v31,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Carl condition,none,-0.802
+2025-04-03T08:02:40.522610+00:00,234,v31,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Carl condition,none,1.198
+2025-04-03T08:03:02.704386+00:00,567,v50,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,-1.388
+2025-04-03T08:03:02.704386+00:00,567,v50,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,0.612
+2025-04-03T08:03:03.955237+00:00,567,v49,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Carl condition,none,-1.285
+2025-04-03T08:03:03.955237+00:00,567,v49,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Carl condition,none,0.715
+2025-04-03T08:03:05.105220+00:00,567,v48,When you cry in space your tears stick to your face.,easy,True,left,left,Carl condition,none,-1.359
+2025-04-03T08:03:05.105220+00:00,567,v48,When you cry in space your tears stick to your face.,easy,True,left,left,Carl condition,none,0.641
+2025-04-03T08:03:06.455859+00:00,567,v47,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Carl condition,none,-1.235
+2025-04-03T08:03:06.455859+00:00,567,v47,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Carl condition,none,0.765
+2025-04-03T08:03:07.588637+00:00,567,v46,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Carl condition,none,-1.368
+2025-04-03T08:03:07.588637+00:00,567,v46,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Carl condition,none,0.632
+2025-04-03T08:03:08.640665+00:00,567,v45,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Carl condition,none,-1.433
+2025-04-03T08:03:08.640665+00:00,567,v45,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Carl condition,none,0.567
+2025-04-03T08:03:09.709037+00:00,567,v44,The first successful human heart transplant was performed in 1967,hard,True,left,left,Carl condition,none,-1.411
+2025-04-03T08:03:09.709037+00:00,567,v44,The first successful human heart transplant was performed in 1967,hard,True,left,left,Carl condition,none,0.589
+2025-04-03T08:03:11.224658+00:00,567,v43,The human digestive system breaks down food into nutrients.,hard,True,left,left,Carl condition,none,-1.171
+2025-04-03T08:03:11.224658+00:00,567,v43,The human digestive system breaks down food into nutrients.,hard,True,left,left,Carl condition,none,0.829
+2025-04-03T08:03:12.441448+00:00,567,v42,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Carl condition,none,-1.330
+2025-04-03T08:03:12.441448+00:00,567,v42,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Carl condition,none,0.670
+2025-04-03T08:03:13.840256+00:00,567,v41,The color orange is named after the fruit.,easy,True,left,left,Carl condition,none,-1.198
+2025-04-03T08:03:13.840256+00:00,567,v41,The color orange is named after the fruit.,easy,True,left,left,Carl condition,none,0.802
+2025-04-03T08:03:15.405177+00:00,567,v40,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Carl condition,none,-1.018
+2025-04-03T08:03:15.405177+00:00,567,v40,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Carl condition,none,0.982
+2025-04-03T08:03:16.757668+00:00,567,v39,French is an official language in Canada.,easy,True,left,left,Carl condition,none,-1.165
+2025-04-03T08:03:16.757668+00:00,567,v39,French is an official language in Canada.,easy,True,left,left,Carl condition,none,0.835
+2025-04-03T08:03:18.239923+00:00,567,v38,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Carl condition,none,-1.031
+2025-04-03T08:03:18.239923+00:00,567,v38,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Carl condition,none,0.969
+2025-04-03T08:03:19.621887+00:00,567,v37,The Sun rises from the North.,easy,False,right,left,Carl condition,none,-1.252
+2025-04-03T08:03:19.621887+00:00,567,v37,The Sun rises from the North.,easy,False,right,left,Carl condition,none,0.748
+2025-04-03T08:03:20.922791+00:00,567,v36,Coral reefs are located underwater.,easy,True,left,left,Carl condition,none,-1.248
+2025-04-03T08:03:20.922791+00:00,567,v36,Coral reefs are located underwater.,easy,True,left,left,Carl condition,none,0.752
+2025-04-03T08:03:22.236729+00:00,567,v35,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Carl condition,none,-1.220
+2025-04-03T08:03:22.236729+00:00,567,v35,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Carl condition,none,0.780
+2025-04-03T08:03:23.876527+00:00,567,v34,The Eiffel Tower is located in Paris France.,easy,True,left,left,Carl condition,none,-0.912
+2025-04-03T08:03:23.876527+00:00,567,v34,The Eiffel Tower is located in Paris France.,easy,True,left,left,Carl condition,none,1.088
+2025-04-03T08:03:25.525343+00:00,567,v33,The Sun is more massive than earth,easy,True,left,left,Carl condition,none,-0.930
+2025-04-03T08:03:25.525343+00:00,567,v33,The Sun is more massive than earth,easy,True,left,left,Carl condition,none,1.070
+2025-04-03T08:03:28.357339+00:00,567,v32,Human digestion begins in the hand and ends in the large intestine,hard,False,right,left,Carl condition,none,-0.819
+2025-04-03T08:03:28.357339+00:00,567,v32,Human digestion begins in the hand and ends in the large intestine,hard,False,right,left,Carl condition,none,1.181
+2025-04-03T08:03:30.238430+00:00,567,v31,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Carl condition,none,-0.769
+2025-04-03T08:03:30.238430+00:00,567,v31,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Carl condition,none,1.231
+2025-04-03T08:23:14.581409+00:00,234,v50,The Sun rises from the North.,easy,False,right,right,Ryan condition,none,3.950
+2025-04-03T08:23:14.581409+00:00,234,v50,The Sun rises from the North.,easy,False,right,right,Ryan condition,none,3.950
+2025-04-03T08:23:24.816756+00:00,234,v49,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,right,Ryan condition,none,9.168
+2025-04-03T08:23:24.816756+00:00,234,v49,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,right,Ryan condition,none,9.168
+2025-04-03T08:23:30.564948+00:00,234,v48,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,right,Ryan condition,none,5.016
+2025-04-03T08:23:30.564948+00:00,234,v48,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,right,Ryan condition,none,5.016
+2025-04-03T08:30:24.364410+00:00,2345,v50,The smallest volcano in the world is located in Hawaii.,hard,False,right,right,Ryan condition,none,5.671
+2025-04-03T08:30:24.364410+00:00,2345,v50,The smallest volcano in the world is located in Hawaii.,hard,False,right,right,Ryan condition,none,5.671
+2025-04-03T08:30:51.261919+00:00,2345,v49,Nutella is produced by the German company Ferrero.,easy,False,right,left,Ryan condition,none,13.533
+2025-04-03T08:30:51.261919+00:00,2345,v49,Nutella is produced by the German company Ferrero.,easy,False,right,left,Ryan condition,none,13.533
+2025-04-03T08:30:57.877566+00:00,2345,v48,The Sun rises from the North.,easy,False,right,right,Ryan condition,none,4.996
+2025-04-03T08:30:57.877566+00:00,2345,v48,The Sun rises from the North.,easy,False,right,right,Ryan condition,none,4.996
+2025-04-03T08:32:59.596353+00:00,234,v50,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Ryan condition,none,9.182
+2025-04-03T08:32:59.596353+00:00,234,v50,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,left,Ryan condition,none,9.182
+2025-04-03T08:33:03.695906+00:00,234,v49,When you cry in space your tears stick to your face.,easy,True,left,right,Ryan condition,none,3.484
+2025-04-03T08:33:03.695906+00:00,234,v49,When you cry in space your tears stick to your face.,easy,True,left,right,Ryan condition,none,3.484
+2025-04-03T08:33:06.595146+00:00,234,v48,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Ryan condition,none,1.684
+2025-04-03T08:33:06.595146+00:00,234,v48,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Ryan condition,none,1.684
+2025-04-03T08:45:20.039116+00:00,123,v50,When you cry in space your tears stick to your face.,easy,True,left,left,Ryan condition,left,4.561
+2025-04-03T08:45:20.039116+00:00,123,v50,When you cry in space your tears stick to your face.,easy,True,left,left,Ryan condition,left,4.561
+2025-04-03T08:45:27.505447+00:00,123,v49,The Sun is more massive than earth,easy,True,left,right,Ryan condition,right,4.066
+2025-04-03T08:45:27.505447+00:00,123,v49,The Sun is more massive than earth,easy,True,left,right,Ryan condition,right,4.066
+2025-04-03T08:45:35.542077+00:00,123,v48,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Ryan condition,right,6.306
+2025-04-03T08:45:35.542077+00:00,123,v48,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Ryan condition,right,6.306
+2025-04-03T08:45:40.137303+00:00,123,v47,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Ryan condition,left,3.667
+2025-04-03T08:45:40.137303+00:00,123,v47,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,left,Ryan condition,left,3.667
+2025-04-03T08:47:26.634081+00:00,123,v46,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Ryan condition,left,3.629
+2025-04-03T08:47:26.634081+00:00,123,v46,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Ryan condition,left,3.629
+2025-04-03T08:47:37.489841+00:00,123,v45,Nutella is produced by the German company Ferrero.,easy,False,right,right,Ryan condition,right,9.689
+2025-04-03T08:47:37.489841+00:00,123,v45,Nutella is produced by the German company Ferrero.,easy,False,right,right,Ryan condition,right,9.689
+2025-04-03T08:54:11.348989+00:00,1234,v50,Nutella is produced by the German company Ferrero.,easy,False,right,right,Ryan condition,right,4.512
+2025-04-03T08:54:16.619765+00:00,1234,v49,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Ryan condition,right,3.835
+2025-04-03T08:54:31.801873+00:00,1234,v48,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,right,Ivan condition,right,4.399
+2025-04-03T08:54:43.518379+00:00,1234,v47,The Eiffel Tower is located in Paris France.,easy,True,left,left,Carl condition,none,8.844
+2025-04-03T08:54:53.768291+00:00,1234,v46,The Sun rises from the North.,easy,False,right,left,Carl condition,none,1.414
+2025-04-03T08:55:02.434793+00:00,1234,v45,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,right,Carl condition,none,4.466
+2025-04-03T08:55:11.137608+00:00,1234,v44,The color orange is named after the fruit.,easy,True,left,right,Ivan condition,right,7.070
+2025-04-03T08:55:16.182294+00:00,1234,v43,The human digestive system breaks down food into nutrients.,hard,True,left,left,Ryan condition,left,4.245
+2025-04-03T08:55:19.617416+00:00,1234,v42,The first successful human heart transplant was performed in 1967,hard,True,left,right,Carl condition,none,0.649
+2025-04-03T08:55:22.634170+00:00,1234,v41,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Ryan condition,left,2.297
+2025-04-03T08:55:27.352304+00:00,1234,v40,When you cry in space your tears stick to your face.,easy,True,left,right,Ryan condition,left,4.050
+2025-04-03T08:55:47.450177+00:00,235,v50,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,right,Ryan condition,left,4.414
+2025-04-03T08:55:55.000995+00:00,235,v49,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,right,Ryan condition,left,4.800
+2025-04-03T08:56:01.717659+00:00,235,v48,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,3.016
+2025-04-03T08:56:08.204986+00:00,235,v47,French is an official language in Canada.,easy,True,left,right,Ivan condition,left,4.404
+2025-04-03T08:56:13.900937+00:00,235,v46,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Carl condition,none,1.946
+2025-04-03T08:56:16.800652+00:00,235,v45,Coral reefs are located underwater.,easy,True,left,left,Ivan condition,right,1.511
+2025-04-03T08:56:21.682359+00:00,235,v44,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Ivan condition,left,2.364
+2025-04-03T08:56:27.452935+00:00,235,v43,The smallest volcano in the world is located in Hawaii.,hard,False,right,right,Ryan condition,right,4.168
+2025-04-03T09:01:01.617735+00:00,124,v50,Coral reefs are located underwater.,easy,True,left,left,Ryan condition,left,4.812
+2025-04-03T09:01:12.101083+00:00,124,v49,The smallest volcano in the world is located in Hawaii.,hard,False,right,left,Ivan condition,left,5.150
+2025-04-03T09:01:19.401714+00:00,124,v48,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,left,Ryan condition,left,4.533
+2025-04-03T09:01:31.402471+00:00,124,v47,The electron configuration of an atom determines its physical properties.,hard,False,right,right,Carl condition,none,5.067
+2025-04-03T09:01:39.565904+00:00,124,v46,The Eiffel Tower is located in Paris France.,easy,True,left,right,Ryan condition,right,4.878
+2025-04-03T09:01:49.136770+00:00,124,v45,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,right,Carl condition,none,6.218
+2025-04-03T09:01:57.569757+00:00,124,v44,The first successful human heart transplant was performed in 1967,hard,True,left,right,Carl condition,none,5.767
+2025-04-03T09:02:01.101460+00:00,124,v43,The human digestive system breaks down food into nutrients.,hard,True,left,left,Ivan condition,right,2.418
+2025-04-03T09:02:05.968372+00:00,124,v42,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Ivan condition,left,2.001
+2025-04-03T09:02:12.217709+00:00,124,v41,The Sun is more massive than earth,easy,True,left,left,Ryan condition,left,3.635
+2025-04-03T09:02:20.985707+00:00,124,v40,The Sun rises from the North.,easy,False,right,left,Carl condition,none,4.784
+2025-04-03T09:02:27.816811+00:00,124,v39,Light can exhibit neither wave-like nor particle-like properties.,hard,False,right,left,Ivan condition,left,4.015
+2025-04-03T09:02:33.815367+00:00,124,v38,When you cry in space your tears stick to your face.,easy,True,left,left,Carl condition,none,0.930
+2025-04-03T09:02:38.536180+00:00,124,v37,"The three types of blood vessels in the human body are arteries, veins, and capillaries",hard,True,left,right,Carl condition,none,0.969
+2025-04-03T09:02:43.216627+00:00,124,v36,The color orange is named after the fruit.,easy,True,left,right,Ivan condition,left,3.381
+2025-04-03T09:02:47.767139+00:00,124,v35,Nutella is produced by the German company Ferrero.,easy,False,right,right,Ryan condition,right,3.915
+2025-04-03T09:02:50.751056+00:00,124,v34,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,right,Ryan condition,left,2.266
+2025-04-03T09:02:54.249220+00:00,124,v33,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,right,Ryan condition,left,1.231
+2025-04-03T09:02:56.148781+00:00,124,v32,French is an official language in Canada.,easy,True,left,right,Ryan condition,left,1.298
+2025-04-03T09:02:57.818424+00:00,124,v31,Human digestion begins in the hand and ends in the large intestine,hard,False,right,right,Ryan condition,right,1.051
+2025-04-03T09:03:01.819101+00:00,124,v30,The greenhouse effect influences Earth's temperature.,easy,True,left,right,Carl condition,none,-0.998
+2025-04-03T09:03:16.903507+00:00,124,v29,Apples are a type of fruit.,easy,True,left,left,Ryan condition,right,14.419
+2025-04-03T09:04:18.759948+00:00,1234,v50,The Doppler effect causes the change in frequency or wavelength of a wave in relation to an observer,hard,True,left,left,Ryan condition,left,3.455
+2025-04-03T09:04:23.869970+00:00,1234,v49,"""Ananas"" is mostly used as the word for Pineapple in other languages.",easy,True,left,right,Ivan condition,right,4.387
+2025-04-03T09:04:28.000929+00:00,1234,v48,"The carbon cycle disrupts the balance of nitrogen in Earth's atmosphere, oceans, and biosphere",hard,False,right,left,Ryan condition,right,0.766
+2025-04-03T09:04:29.316624+00:00,1234,v47,The human digestive system breaks down food into nutrients.,hard,True,left,left,Ivan condition,left,0.765
+2025-04-03T09:04:30.888575+00:00,1234,v46,Nutella is produced by the German company Ferrero.,easy,False,right,left,Carl condition,none,-0.964
+2025-04-03T09:04:59.202715+00:00,234,v50,The human digestive system breaks down food into nutrients.,hard,True,left,left,Ryan condition,left,5.734
+2025-04-03T09:05:04.558850+00:00,234,v49,The Sun rises from the North.,easy,False,right,right,Carl condition,none,1.609
+2025-04-03T09:05:09.841727+00:00,234,v48,The electron configuration of an atom determines its physical properties.,hard,False,right,left,Ivan condition,left,3.389
+2025-04-03T09:05:14.918796+00:00,234,v47,"Romanian belongs to the Romance language family shared with French, Spanish, Portuguese and Italian.",easy,True,left,left,Carl condition,none,1.387
+2025-04-03T09:05:21.953077+00:00,234,v46,The Sun is more massive than earth,easy,True,left,left,Ivan condition,left,4.367
+2025-04-03T09:05:27.683052+00:00,234,v45,The respiratory system prevents the exchange of gases between the body and the environment,hard,True,left,right,Ryan condition,left,4.778
+2025-04-03T09:05:37.083316+00:00,234,v44,When you cry in space your tears stick to your face.,easy,True,left,right,Carl condition,none,1.113
+2025-04-03T09:05:43.054103+00:00,234,v43,Human digestion begins in the hand and ends in the large intestine,hard,False,right,left,Ryan condition,right,4.770

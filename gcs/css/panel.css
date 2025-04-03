@@ -1,0 +1,201 @@
+/* css/panel.css */
+
+/* Control Panel Styles */
+#controlPanel {
+  position: fixed; /* Stick to the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #030202; /* Dark background */
+  border-top: 1px solid #ccc; /* Separator line */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Top shadow */
+  font-family: sans-serif; /* Consistent font */
+  /* Ensure z-index is higher than the modal overlay (1050) */
+  z-index: 1100; /* <--- ADD OR MODIFY THIS LINE */
+}
+
+#controlPanelHeader {
+  cursor: pointer; /* Indicate it's clickable */
+  padding: 10px;
+  text-align: center;
+  background: #222; /* Slightly lighter header background */
+  color: #fff; /* White text */
+  font-weight: bold;
+}
+#controlPanelContent {
+  padding: 15px 20px; /* Add some padding */
+  display: block; /* Initially shown (can be toggled by JS) */
+  background: #030202; /* Match panel background */
+  color: #fff; /* White text for content */
+  max-height: 250px; /* Limit height if many toggles */
+  overflow-y: auto; /* Allow scrolling if content exceeds height */
+}
+
+/* Container for condition toggles (first row) */
+.condition-container {
+  display: flex;
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: center;
+  margin-bottom: 20px; /* Space below condition toggles */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  padding-bottom: 15px; /* Space before border */
+  border-bottom: 1px solid #444; /* Separator line */
+}
+
+/* Container for other behavior toggles (second row) */
+#controlPanelContent .toggle-container {
+  display: flex;
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: center;
+  margin-top: 15px; /* Space above behavior toggles */
+  margin-bottom: 20px; /* Space below toggles before status */
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+/* Individual toggle item styling */
+.toggle-item {
+  display: flex;
+  align-items: center;
+  color: white; /* Label color */
+  margin: 5px 15px; /* Spacing around each toggle item */
+  white-space: nowrap; /* Prevent label wrapping */
+}
+.toggle-item span { /* The text label */
+  margin-right: 8px; /* Space between label and switch */
+  font-size: 0.9em;
+}
+
+/* Gaze status display inside control panel */
+#gazeStatus {
+  text-align: center;
+  font-size: 16px; /* Slightly smaller font */
+  margin-top: 10px;
+  padding-top: 10px; /* Space above status */
+  border-top: 1px solid #444; /* Separator line */
+  color: #eee; /* Light text color */
+  font-family: monospace; /* Use monospace for consistent alignment */
+  line-height: 1.4;
+}
+
+/* On-screen message log (Top Right) */
+#messageDisplay {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px; /* Adjust width as needed */
+  max-height: 200px; /* Limit height */
+  overflow-y: auto; /* Add scrollbar if content exceeds height */
+  background: rgba(30, 30, 30, 0.85); /* Darker semi-transparent background */
+  padding: 10px;
+  border: 1px solid #555; /* Darker border */
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 13px; /* Smaller font for log */
+  color: #e0e0e0; /* Light grey text */
+  z-index: 1000; /* Keep on top */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+#messageDisplay h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #666; /* Darker separator */
+    padding-bottom: 3px;
+    color: #fff; /* White heading */
+    font-weight: bold;
+    font-size: 14px;
+}
+/* Container for individual messages */
+#messagesContainer div {
+    padding: 2px 0;
+    border-bottom: 1px dotted #555; /* Darker dotted separator */
+    word-wrap: break-word; /* Wrap long messages */
+    line-height: 1.3;
+}
+#messagesContainer div:last-child {
+    border-bottom: none; /* No border on the last message */
+}
+
+/* Switch Styles */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* Width of the switch */
+  height: 20px; /* Height of the switch */
+  vertical-align: middle; /* Align with text */
+  margin-left: 10px; /* Space from label */
+}
+.switch input { /* Hide the default checkbox */
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #555; /* Default background color (off) */
+  transition: 0.2s; /* Animation speed */
+  border-radius: 20px; /* Make it rounded */
+}
+.slider:before { /* The sliding circle */
+  position: absolute;
+  content: "";
+  height: 14px; /* Size of the circle */
+  width: 14px; /* Size of the circle */
+  left: 3px; /* Padding from left */
+  bottom: 3px; /* Padding from bottom */
+  background-color: white;
+  transition: 0.2s; /* Animation speed */
+  border-radius: 50%; /* Make it a circle */
+}
+input:checked + .slider {
+  background-color: #2196F3; /* Color when checked (on) */
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3; /* Optional focus style */
+}
+input:checked + .slider:before {
+  transform: translateX(20px); /* Move the circle to the right */
+}
+
+.modal-overlay {
+  position: fixed;
+  display: none; /* Hidden by default */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6); /* Darker overlay */
+  /* Z-index lower than the control panel */
+  z-index: 1050;  /* <--- Make sure this is lower than controlPanel's z-index */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content { /* Basic content box style */
+  background-color: #fefefe;
+  color: #333;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 450px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  color: #d9534f; /* Optional: Red color for emphasis */
+}
+
+.modal-content p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}

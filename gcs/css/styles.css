@@ -1,0 +1,99 @@
+/* css/styles.css */
+
+/* Global Reset & Body Styles */
+body {
+  margin: 0;
+  /* Corrected path relative to the css folder, assuming assets folder exists */
+  background-image: url('../robot_faces/Robot8.png');
+  background-size: 1000px; /* Default size (Matches Ryan) */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Optional Dark Overlay for Better Contrast */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
+  z-index: -1; /* Place it behind content */
+}
+
+/* Container for Eyes */
+.eyes-container {
+  position: relative; /* Needed if using absolute positioning inside */
+  display: flex;
+  gap: 100px; /* Space between eyes */
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Take full viewport height to center vertically */
+  z-index: 10; /* Ensure eyes are above potential body overlay */
+  /* Margin-bottom is now controlled by JS in ui-handler.js based on condition */
+  /* Example default (can be overridden): */
+  margin-bottom: 90px;
+}
+
+/* Individual Eye Styling */
+.eye {
+  position: relative;
+  width: 150px; /* Adjust size as needed */
+  height: 120px; /* Adjust size as needed */
+  /* Default background (Matches Ryan) */
+  background: radial-gradient(circle at center, #f5f5f5, #bbb);
+  border: 4px solid #666; /* Eye border color */
+  border-radius: 50%; /* Make it round */
+  overflow: hidden; /* Hide parts of pupil/eyelid outside */
+  box-shadow: inset -8px -8px 15px rgba(0,0,0,0.2), inset 8px 8px 15px rgba(255,255,255,0.6); /* Inner shadow for depth */
+}
+
+/* Pupil Styling */
+.pupil {
+  position: absolute;
+  width: 50px; /* Pupil size */
+  height: 50px; /* Pupil size */
+  background: radial-gradient(circle at 30% 30%, #444, #000); /* Pupil color/gradient */
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7); /* Optional shadow */
+  /* Centered by default, JS controls transform for movement */
+  top: calc(50% - 25px); /* (Eye height / 2) - (Pupil height / 2) */
+  left: calc(50% - 25px); /* (Eye width / 2) - (Pupil width / 2) */
+  /* transform is set by js/gaze-mechanics.js -> setPupilTransform */
+}
+
+/* Eyelid Styling */
+.top-eyelid, .bottom-eyelid {
+  position: absolute;
+  width: 100%;
+  height: 0%; /* Height controlled by JS for blinking animation */
+  /* Eyelid color/gradient - adjust as needed */
+  background: linear-gradient(#aaa, #888);
+  box-shadow: 0 3px 5px rgba(0,0,0,0.4); /* Shadow for depth */
+  z-index: 20; /* Ensure eyelids are above the pupil */
+  transition: height 0.1s ease-in-out; /* Smooth blink animation */
+}
+
+.top-eyelid {
+  top: 0;
+  /* Make bottom edge curved */
+  border-bottom-left-radius: 75px; /* Adjust curvature */
+  border-bottom-right-radius: 75px; /* Adjust curvature */
+}
+
+.bottom-eyelid {
+  bottom: 0;
+  /* Make top edge curved */
+  border-top-left-radius: 75px; /* Adjust curvature */
+  border-top-right-radius: 75px; /* Adjust curvature */
+}
+
+/* Note: Styles for #controlPanel, #messageDisplay, .switch, #gazeStatus etc. */
+/* have been moved to css/panel.css */

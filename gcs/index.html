@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Robot Eyes with Gaze Behaviors</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/panel.css">
+</head>
+<body>
+  <div class="eyes-container">
+    <div class="eye">
+      <div class="top-eyelid" id="leftTopEyelid"></div>
+      <div class="bottom-eyelid" id="leftBottomEyelid"></div>
+      <div class="pupil" id="leftPupil"></div>
+    </div>
+    <div class="eye">
+      <div class="top-eyelid" id="rightTopEyelid"></div>
+      <div class="bottom-eyelid" id="rightBottomEyelid"></div>
+      <div class="pupil" id="rightPupil"></div>
+    </div>
+  </div>
+
+  <div id="controlPanel">
+    <div id="controlPanelHeader">Controls &#9660;</div>
+    <div id="controlPanelContent">
+      <div class="condition-container">
+        <div class="toggle-item">
+          <span>Ryan Condition</span>
+          <label class="switch">
+            <input type="checkbox" id="ryanConditionToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="toggle-item">
+          <span>Ivan Condition</span>
+          <label class="switch">
+            <input type="checkbox" id="ivanConditionToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="toggle-item">
+          <span>Carl Condition</span>
+          <label class="switch">
+            <input type="checkbox" id="carlConditionToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <div class="toggle-container">
+        <div class="toggle-item">
+          <span>Initiating Joint Attention</span>
+          <label class="switch">
+            <input type="checkbox" id="jointAttentionToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="toggle-item">
+          <span>Responding Joint Attention</span>
+          <label class="switch">
+            <input type="checkbox" id="respondingJointAttentionToggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="toggle-item">
+          <span>80% Knowledge</span>
+          <label class="switch">
+            <input type="checkbox" id="knowledge80Toggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <div class="toggle-item">
+          <span>20% Knowledge</span>
+          <label class="switch">
+            <input type="checkbox" id="knowledge20Toggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <div id="gazeStatus">
+        Initializing...
+      </div>
+    </div>
+  </div>
+
+
+  <div id="activationPromptModal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <h2>Robot Condition Not Set</h2>
+        <p>Please activate a robot condition (Ryan, Ivan, or Carl) in the control panel before starting.</p>
+        </div>
+</div>
+
+  <script src="js/gaze-mechanics.js"></script>
+  <script src="js/gaze-behaviors.js"></script>
+  <script src="js/gaze-controller.js"></script>
+  <script src="js/messaging.js"></script>
+  <script src="js/ui-handler.js"></script>
+
+</body>
+</html>

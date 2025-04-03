@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Card Sorting Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="roundDisplay" style="position:absolute; top:10px; left:10px; font-size:1.5rem; font-weight:bold; color:#000; visibility: hidden;">
+    </div>
+
+    <div id="instructionsContainer">
+        <h1>Tip on Card to reveal</h1>
+        <div class="arrowRow">
+            <div class="arrowLeft">←</div>
+            <div class="instructionText"> Move Card to left side for the left category<br /> and right side for the right category </div>
+            <div class="arrowRight">→</div>
+        </div>
+    </div>
+
+    <div id="leftDropZone" class="drop-zone">
+        <div class="drop-zone-label">Place here</div>
+        <div id="leftCounter" class="counter">0</div>
+    </div>
+
+    <div id="deckContainer">
+        </div>
+
+    <div id="rightDropZone" class="drop-zone">
+        <div class="drop-zone-label">Place here</div>
+        <div id="rightCounter" class="counter">0</div>
+    </div>
+
+    <div id="bottomInstructions">
+        Move Card to left side for the left category and right side for the right category
+    </div>
+
+    <div id="nameEntryModal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Enter Participant ID</h2>
+            <div>
+                <label for="participantIdInput">Participant ID:</label>
+                <input type="text" id="participantIdInput" name="participantId" required>
+            </div>
+            <button id="submitNameButton">Start Game</button>
+            <div id="nameError" style="color: red; margin-top: 10px; height: 1em;"></div>
+        </div>
+    </div>
+
+    <div id="roundModal" class="modal-overlay">
+        <div class="modal-content">
+            <h2 id="modalMessage">Round 1</h2>
+            <button id="testSessionButton">Start Practice Session</button>
+            <button id="modalButton">Start Round 1</button>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/state.js"></script>
+    <script src="js/ui.js"></script>           <script src="js/messaging.js"></script>    <script src="js/csvLoader.js"></script>   <script src="js/cardInteractions.js"></script> <script src="js/gameFlow.js"></script>    <script src="js/main.js"></script>        </body>
+</html>
